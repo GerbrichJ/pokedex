@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2A99FED1E8A5C6B00561B33 /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = A2A99FEC1E8A5C6B00561B33 /* pokemon.csv */; };
 		A2B12C041E8A55FA00872232 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B12C031E8A55FA00872232 /* AppDelegate.swift */; };
 		A2B12C061E8A55FA00872232 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2B12C051E8A55FA00872232 /* ViewController.swift */; };
 		A2B12C091E8A55FA00872232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2B12C071E8A55FA00872232 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A2A99FEC1E8A5C6B00561B33 /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 		A2B12C001E8A55F900872232 /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2B12C031E8A55FA00872232 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2B12C051E8A55FA00872232 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				A2B12C051E8A55FA00872232 /* ViewController.swift */,
 				A2B12C071E8A55FA00872232 /* Main.storyboard */,
 				A2B12C0A1E8A55FA00872232 /* Assets.xcassets */,
+				A2A99FEC1E8A5C6B00561B33 /* pokemon.csv */,
 				A2B12C0C1E8A55FA00872232 /* LaunchScreen.storyboard */,
 				A2B12C0F1E8A55FA00872232 /* Info.plist */,
 			);
@@ -237,6 +240,7 @@
 			files = (
 				A2B12C0E1E8A55FA00872232 /* LaunchScreen.storyboard in Resources */,
 				A2B12C0B1E8A55FA00872232 /* Assets.xcassets in Resources */,
+				A2A99FED1E8A5C6B00561B33 /* pokemon.csv in Resources */,
 				A2B12C091E8A55FA00872232 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +518,7 @@
 				A2B12C2A1E8A55FA00872232 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2B12C2B1E8A55FA00872232 /* Build configuration list for PBXNativeTarget "PokedexTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				A2B12C2D1E8A55FA00872232 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2B12C2E1E8A55FA00872232 /* Build configuration list for PBXNativeTarget "PokedexUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				A2B12C301E8A55FA00872232 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
